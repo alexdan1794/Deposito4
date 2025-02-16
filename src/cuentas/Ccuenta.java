@@ -1,8 +1,5 @@
 package cuentas;
 
-/**
- * Permite ingresar y retirar dinero, además de consultar el saldo.
- */
 public class Ccuenta {
 
     private String nombre;
@@ -20,8 +17,6 @@ public class Ccuenta {
     }
 
     /**
-     * Parámetros para inicializar la cuenta.
-     *
      * @param nom Nombre del titular de la cuenta.
      * @param cue Número de cuenta bancaria.
      * @param sal Saldo inicial de la cuenta.
@@ -35,8 +30,6 @@ public class Ccuenta {
     }
 
     /**
-     * Devuelve el saldo actual de la cuenta.
-     *
      * @return
      */
     public double estado() {
@@ -44,8 +37,6 @@ public class Ccuenta {
     }
 
     /**
-     * Ingresa dinero en la cuenta.
-     *
      * @param cantidad Monto a ingresar en la cuenta.
      * @throws Exception Si la cantidad es negativa.
      */
@@ -57,8 +48,6 @@ public class Ccuenta {
     }
 
     /**
-     * Retira dinero de la cuenta.
-     *
      * @param cantidad Monto a retirar de la cuenta.
      * @throws Exception Si la cantidad es negativa o si el saldo es insuficiente.
      */
@@ -96,7 +85,6 @@ public class Ccuenta {
     }
 
     /**
-
      * @param cuenta
      */
     public void setCuenta(String cuenta) {
